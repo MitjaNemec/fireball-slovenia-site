@@ -1,0 +1,15 @@
+baseURL = "https://example.org/"
+title = "Fireball Slovenija"
+theme = "blowfish"
+defaultContentLanguage = "sl"
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[imaging]
+  anchor = "Center"

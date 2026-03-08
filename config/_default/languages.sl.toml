@@ -1,0 +1,11 @@
+languageCode = "sl"
+languageName = "Slovenščina"
+weight = 1
+title = "Fireball Slovenija"
+
+[params]
+  displayName = "SL"
+  isoCode = "sl"
+  rtl = false
+  dateFormat = "2. January 2006"
+  description = "Uradna spletna stran jadralnega kluba"

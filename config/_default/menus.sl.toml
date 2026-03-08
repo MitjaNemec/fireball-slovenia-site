@@ -1,0 +1,210 @@
+[[main]]
+  name = "Novice"
+  pageRef = "news"
+  weight = 10
+
+[[main]]
+  name = "Jadrnica"
+  identifier = "sailing-class-info"
+  weight = 20
+
+[[main]]
+  name = "Fireball se predstavi"
+  parent = "sailing-class-info"
+  pageRef = "sailing-class-information/fireball-se-predstavi"
+  weight = 20
+
+[[main]]
+  name = "Pravila razreda"
+  parent = "sailing-class-info"
+  pageRef = "sailing-class-information/class-rules"
+  weight = 21
+
+[[main]]
+  name = "ABC jadranja"
+  parent = "sailing-class-info"
+  pageRef = "sailing-class-information/abc-jadranja"
+  weight = 22
+
+[[main]]
+  name = "Tekmovanja"
+  identifier = "competitions"
+  weight = 30
+
+[[main]]
+  name = "Koledar tekoče sezone"
+  parent = "competitions"
+  pageRef = "competitions/current-season-calendar"
+  weight = 31
+
+[[main]]
+  name = "Rezultati tekoče sezone"
+  parent = "competitions"
+  pageRef = "competitions/current-season-results"
+  weight = 32
+
+[[main]]
+  name = "Pravila slovenskega pokala"
+  parent = "competitions"
+  pageRef = "competitions/pravila-slovenskega-pokala"
+  weight = 33
+
+[[main]]
+  name = "Rezultati preteklih sezon"
+  identifier = "past-season-results"
+  parent = "competitions"
+  pageRef = "competitions/past-season-results"
+  weight = 34
+
+[[main]]
+  name = "Posamezne regate"
+  parent = "past-season-results"
+  pageRef = "competitions/past-season-results/separate-regattas"
+  weight = 35
+
+[[main]]
+  name = "Skupna sezona"
+  parent = "past-season-results"
+  pageRef = "competitions/past-season-results/overall-season"
+  weight = 36
+
+[[main]]
+  name = "Informacije o klubu"
+  pageRef = "club-information"
+  weight = 40
+
+[[main]]
+  name = "Zunanje povezave"
+  pageRef = "external-links"
+  weight = 50
+
+[[main]]
+  name = "Media"
+  identifier = "media"
+  weight = 60
+
+[[main]]
+  name = "1999"
+  parent = "media"
+  pageRef = "media/1999"
+  weight = 61
+
+[[main]]
+  name = "2000"
+  parent = "media"
+  pageRef = "media/2000"
+  weight = 62
+
+[[main]]
+  name = "2001"
+  parent = "media"
+  pageRef = "media/2001"
+  weight = 63
+
+[[main]]
+  name = "2002"
+  parent = "media"
+  pageRef = "media/2002"
+  weight = 64
+
+[[main]]
+  name = "2003"
+  parent = "media"
+  pageRef = "media/2003"
+  weight = 65
+
+[[main]]
+  name = "2004"
+  parent = "media"
+  pageRef = "media/2004"
+  weight = 66
+
+[[main]]
+  name = "2005"
+  parent = "media"
+  pageRef = "media/2005"
+  weight = 67
+
+[[main]]
+  name = "2006"
+  parent = "media"
+  pageRef = "media/2006"
+  weight = 68
+
+[[main]]
+  name = "2007"
+  parent = "media"
+  pageRef = "media/2007"
+  weight = 69
+
+[[main]]
+  name = "2008"
+  parent = "media"
+  pageRef = "media/2008"
+  weight = 70
+
+[[main]]
+  name = "2009"
+  parent = "media"
+  pageRef = "media/2009"
+  weight = 71
+
+[[main]]
+  name = "2010"
+  parent = "media"
+  pageRef = "media/2010"
+  weight = 72
+
+[[main]]
+  name = "2011"
+  parent = "media"
+  pageRef = "media/2011"
+  weight = 73
+
+[[main]]
+  name = "2012"
+  parent = "media"
+  pageRef = "media/2012"
+  weight = 74
+
+[[main]]
+  name = "2013"
+  parent = "media"
+  pageRef = "media/2013"
+  weight = 75
+
+[[main]]
+  name = "2014"
+  parent = "media"
+  pageRef = "media/2014"
+  weight = 76
+
+[[main]]
+  name = "2015"
+  parent = "media"
+  pageRef = "media/2015"
+  weight = 77
+
+[[main]]
+  name = "2016"
+  parent = "media"
+  pageRef = "media/2016"
+  weight = 78
+
+[[main]]
+  name = "2019"
+  parent = "media"
+  pageRef = "media/2019"
+  weight = 79
+
+[[main]]
+  name = "2020"
+  parent = "media"
+  pageRef = "media/2020"
+  weight = 80
+
+[[main]]
+  name = "2023"
+  parent = "media"
+  pageRef = "media/2023"
+  weight = 81

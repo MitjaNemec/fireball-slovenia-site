@@ -1,0 +1,140 @@
+article .max-w-prose {
+  max-width: 100% !important;
+}
+
+/* Style imported legacy HTML tables from historical season results pages. */
+.article-content table {
+  display: block;
+  width: max-content;
+  min-width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 0.75rem 0 1.25rem;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.article-content th,
+.article-content td {
+  border: 1px solid rgba(120, 120, 120, 0.35);
+  padding: 0.4rem 0.55rem;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: inherit !important;
+}
+
+.article-content table span,
+.article-content table font,
+.article-content table p {
+  color: inherit !important;
+}
+
+.dark .article-content th,
+.dark .article-content td {
+  border-color: rgba(170, 170, 170, 0.35);
+}
+
+.article-content h1 {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.45rem;
+}
+
+.media-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.media-gallery-item {
+  display: block;
+  border: 1px solid rgba(120, 120, 120, 0.22);
+  border-radius: 0.45rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.dark .media-gallery-item {
+  border-color: rgba(170, 170, 170, 0.3);
+  background: rgba(20, 20, 20, 0.55);
+}
+
+.media-gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+body.media-lightbox-open {
+  overflow: hidden;
+}
+
+.media-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  background: rgba(0, 0, 0, 0.88);
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+}
+
+.media-lightbox.is-open {
+  display: flex;
+}
+
+.media-lightbox-content {
+  max-width: min(96vw, 1600px);
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-lightbox-image {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.media-lightbox-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 2.2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.media-lightbox-hint {
+  position: absolute;
+  bottom: 0.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Parent menu labels without href should not look like clickable links. */
+.nested-menu > a:not([href]),
+.main-menu a:not([href]) {
+  cursor: default;
+}
+
+.nested-menu > a:not([href]):hover,
+.nested-menu > a:not([href]):focus,
+.main-menu a:not([href]) p:hover,
+.main-menu a:not([href]) p:focus {
+  color: rgb(107, 114, 128) !important;
+}
