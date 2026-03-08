@@ -5,7 +5,7 @@
     {{ $name := .Name }}
     {{ $lower := lower $name }}
     {{ if or (hasSuffix $lower ".jpg") (hasSuffix $lower ".jpeg") (hasSuffix $lower ".png") (hasSuffix $lower ".webp") (hasSuffix $lower ".gif") }}
-      {{ $images = $images | append (printf "/images/front/%s" $name) }}
+      {{ $images = $images | append ((printf "images/front/%s" $name) | relURL) }}
     {{ end }}
   {{ end }}
 {{ end }}

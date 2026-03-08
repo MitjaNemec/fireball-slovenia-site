@@ -1,1 +1,5 @@
-<script src="/js/media-lightbox.js" defer></script>
+<script src="{{ "js/media-lightbox.js" | relURL }}" defer></script>
+<script>
+	window.__siteBasePath = "{{ (urls.Parse .Site.BaseURL).Path }}";
+</script>
+<script src="{{ "js/basepath-fix.js" | relURL }}" defer></script>
