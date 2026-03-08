@@ -4,6 +4,8 @@ autoSwitchAppearance = true
 enableSearch = true
 mainSections = ["news"]
 Logo = "img/FBL_web_logo.png"
+LogoLight = "img/FBL_web_logo_light.png"
+LogoDark = "img/FBL_web_logo_dark.png"
 disableTextInHeader = true
 
 [header]
