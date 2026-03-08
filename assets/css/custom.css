@@ -138,3 +138,51 @@ body.media-lightbox-open {
 .main-menu a:not([href]) p:focus {
   color: rgb(107, 114, 128) !important;
 }
+
+.home-rotator {
+  position: relative;
+  width: 100%;
+  height: clamp(220px, 40vw, 460px);
+  margin: 0.35rem 0 1.2rem;
+  border-radius: 0.55rem;
+  overflow: hidden;
+  background: transparent;
+}
+
+.home-rotator-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 420ms ease;
+}
+
+.home-rotator-image.is-active {
+  opacity: 1;
+}
+
+.home-rotator-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0.65rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  z-index: 3;
+}
+
+.home-rotator-dot {
+  width: 0.62rem;
+  height: 0.62rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+}
+
+.home-rotator-dot.is-active {
+  background: rgba(255, 255, 255, 0.95);
+}

@@ -9,3 +9,11 @@ Thumbs.db
 *.swp
 *.swo
 .vscode/settings.json
+
+# Ignore theme-local editor/automation noise
+themes/blowfish/.firebaserc
+themes/blowfish/.github/
+themes/blowfish/.gitignore
+themes/blowfish/.vscode/
+themes/blowfish/exampleSite/content/guides/202310-blowfish-tutorial/.Ulysses-Group.plist
+themes/blowfish/exampleSite/content/guides/202310-blowfish-tutorial/.Ulysses-Settings.plist

@@ -1,0 +1,65 @@
+{{ $entries := readDir "static/images/front" }}
+{{ $images := slice }}
+{{ range $entries }}
+  {{ if not .IsDir }}
+    {{ $name := .Name }}
+    {{ $lower := lower $name }}
+    {{ if or (hasSuffix $lower ".jpg") (hasSuffix $lower ".jpeg") (hasSuffix $lower ".png") (hasSuffix $lower ".webp") (hasSuffix $lower ".gif") }}
+      {{ $images = $images | append (printf "/images/front/%s" $name) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $images) 0 }}
+<div class="home-rotator" data-home-rotator>
+  {{ range $idx, $src := $images }}
+  <img class="home-rotator-image{{ if eq $idx 0 }} is-active{{ end }}" src="{{ $src }}" alt="Fireball Slovenija - uvodna fotografija {{ add $idx 1 }}" loading="{{ if eq $idx 0 }}eager{{ else }}lazy{{ end }}" />
+  {{ end }}
+  <div class="home-rotator-dots" aria-label="Izbira fotografije">
+    {{ range $idx, $_ := $images }}
+    <button type="button" class="home-rotator-dot{{ if eq $idx 0 }} is-active{{ end }}" data-rotator-dot="{{ $idx }}" aria-label="Prikazi fotografijo {{ add $idx 1 }}"></button>
+    {{ end }}
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.querySelector('[data-home-rotator]');
+  if (!root || root.dataset.ready === '1') return;
+  root.dataset.ready = '1';
+  var images = Array.prototype.slice.call(root.querySelectorAll('.home-rotator-image'));
+  var dots = Array.prototype.slice.call(root.querySelectorAll('[data-rotator-dot]'));
+  if (images.length < 2) return;
+
+  var index = 0;
+  var paused = false;
+
+  function setActive(newIndex) {
+    images[index].classList.remove('is-active');
+    if (dots[index]) dots[index].classList.remove('is-active');
+    index = (newIndex + images.length) % images.length;
+    images[index].classList.add('is-active');
+    if (dots[index]) dots[index].classList.add('is-active');
+  }
+
+  var timer = window.setInterval(function () {
+    if (paused) return;
+    setActive(index + 1);
+  }, 4500);
+
+  root.addEventListener('mouseenter', function () { paused = true; });
+  root.addEventListener('mouseleave', function () { paused = false; });
+  root.addEventListener('focusin', function () { paused = true; });
+  root.addEventListener('focusout', function () { paused = false; });
+
+  dots.forEach(function (dot, dotIndex) {
+    dot.addEventListener('click', function () {
+      setActive(dotIndex);
+    });
+  });
+
+  window.addEventListener('beforeunload', function () {
+    window.clearInterval(timer);
+  });
+})();
+</script>
+{{ end }}
