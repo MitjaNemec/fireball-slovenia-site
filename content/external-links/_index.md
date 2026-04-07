@@ -6,7 +6,7 @@ draft = false
 
 ## Pomembne povezave
 
-- [Jadralna zveza Slovenije](http://www.jadralna-zveza.si)
+- [Jadralna zveza Slovenije](https://www.jzs.si/)
 - [Fireball International](http://www.fireball-international.com)
 - [ISAF / World Sailing](http://www.sailing.org/isaf)
 
