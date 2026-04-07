@@ -11,7 +11,7 @@ z veseljem vas pozdravljam ob začetku nove jadralne sezone.
 
 Pred nami je nov koledar regat, nov trening kamp in še ena priložnost za veliko dobrega jadranja, druženja ter prijetnih srečanj na vodi in ob njej.
 
-Koledar se nahaja [tule](/competitions/current-season-calendar/)
+Koledar se nahaja [tule](../../competitions/current-season-calendar/)
 
 Pomembni prihajajoči datumi so naslednji:
 
