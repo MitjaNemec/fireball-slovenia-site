@@ -10,8 +10,8 @@ manevre pa je treba izpiliti s treningom na vodi.
 
 ## Podteme
 
-- [Jadranje po močnem vetru](/sailing-class-information/jadranje-po-mocnem-vetru/)
-- [Nastavitev jambora](/sailing-class-information/nastavitev-jambora/)
-- [Nastavitev jadrnice z merami](/sailing-class-information/nastavitev-jadrnice-z-merami/)
-- [Vang, voziček floka in cunningham](/sailing-class-information/vang-vozicek-floka-in-cunningham/)
+- [Jadranje po močnem vetru](../jadranje-po-mocnem-vetru/)
+- [Nastavitev jambora](../nastavitev-jambora/)
+- [Nastavitev jadrnice z merami](../nastavitev-jadrnice-z-merami/)
+- [Vang, voziček floka in cunningham](../vang-vozicek-floka-in-cunningham/)
 

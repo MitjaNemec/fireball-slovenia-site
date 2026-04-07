@@ -6,10 +6,10 @@ draft = false
 
 ## Podmeni
 
-- [Kaj je Fireball](/sailing-class-information/kaj-je-fireball/)
-- [Kje je razširjen](/sailing-class-information/kje-je-razsirjen/)
-- [Kdo jadra na Fireballu](/sailing-class-information/kdo-jadra-na-fireballu/)
-- [Fireball pri nas](/sailing-class-information/fireball-pri-nas/)
+- [Kaj je Fireball](../kaj-je-fireball/)
+- [Kje je razširjen](../kje-je-razsirjen/)
+- [Kdo jadra na Fireballu](../kdo-jadra-na-fireballu/)
+- [Fireball pri nas](../fireball-pri-nas/)
 
 Fireball je jadrnica dvosed, kar pomeni, da posadko sestavljata dve osebi: krmar in flokist.
 Znak razreda Fireball je velika rdeča pika, ki je že od daleč razpoznavna.
