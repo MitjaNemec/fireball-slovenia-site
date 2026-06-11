@@ -2,7 +2,7 @@
 title = "Pokal MO Murska Sobota"
 date = 2026-06-11T18:00:00Z
 draft = false
-summary = "Objavljen je razpis v Murski Soboti"
+summary = "Objavljen je razpis regate v Murski Soboti"
 +++
 
 Spoštovani,
