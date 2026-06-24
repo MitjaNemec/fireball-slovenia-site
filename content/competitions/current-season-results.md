@@ -32,3 +32,14 @@ draft = false
 | 6         | 14732    | Tom Bastar      | Katja Bastar         | 5        | ~~6~~ | 6   | 4   | 5   | 5   | 25     |
 | 7         | 26       | Marko Jermančič | Mitja Pajek          | ~~DNF~~  | 8 | OCS | 5   | 6   | 4   | 29     |
 | 8         | 14729    | Miro Jakop      | Lovro Jakop          | 6        | ~~7~~ | 7   | 7   | 7   | 6   | 33     |
+
+# Murska Sobota
+
+|           |          |                 |               | št plova |   |   |   |   |     |        |
+|-----------|----------|-----------------|---------------|----------|---|---|---|---|-----|--------|
+| Uvrstitev | Št jadra | Krmar           | Flokist       | 1        | 2 | 3 | 4 | 5 | 6   | Skupaj |
+| 1         | 14732    | Tom Bastar      | Katja Bastar  | 1        | 2 | 1 | 1 | 1 | ~~RET~~ | 6      |
+| 2         | 13277    | Alenka Hočevar  | Matjaž Ciglar | 2        | 1 | ~~2~~ | 2 | 2 | 2   | 9      |
+| 3         | 14729    | Miro Jakop      | Lovro Jakop   | 3        | 4 | ~~5~~ | 5 | 4 | 1   | 17     |
+| 4         | 14701    | Andreja Strmole | Marko Bračič  | 4        | ~~5~~ | 4 | 3 | 3 | 3   | 17     |
+| 5         | 14492    | Jerneja Škof    | Jurij Nemec   | ~~DNS~~      | 3 | 3 | 4 | 5 | 4   | 19     |
