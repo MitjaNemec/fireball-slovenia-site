@@ -43,3 +43,16 @@ draft = false
 | 3         | 14729    | Miro Jakop      | Lovro Jakop   | 3        | 4 | ~~5~~ | 5 | 4 | 1   | 17     |
 | 4         | 14701    | Andreja Strmole | Marko Bračič  | 4        | ~~5~~ | 4 | 3 | 3 | 3   | 17     |
 | 5         | 14492    | Jerneja Škof    | Jurij Nemec   | ~~DNS~~      | 3 | 3 | 4 | 5 | 4   | 19     |
+
+# Skupna razvrstitev
+
+| Uvrstitev | Št jadra | Krmar            | Flokist            | Velenje | Zlato Sidro | Murska Sobota | Olimpic | DP Portorož | Bohinj v Portorožu | Bruto | Neto |
+|-----------|----------|------------------|--------------------|---------|-------------|---------------|---------|-------------|--------------------|-------|------|
+| 1         | 14730    | Miha Kavčič      | Tomo Pečaver       | 8       | 8           | ~~66  ~~      |         |             |                    | 82    | 16   |
+| 2         | 14733    | Barbara Kraigher | Rok Volk           | 12      | 6           | ~~66    ~~    |         |             |                    | 84    | 18   |
+| 3         | 14492    | Mitja Nemec      | Jurij Nemec        | 15      | 15          | ~~33   ~~     |         |             |                    | 63    | 30   |
+| 4         | 14732    | Tomaž Bastar     | Katja Mohar Bastar | 12      | 18          | ~~19 ~~       |         |             |                    | 49    | 30   |
+| 5         | 14729    | Miro Jakop       | Lovro Jakop        | 22      | 24          | ~~32~~        |         |             |                    | 78    | 46   |
+| 6         | 14701    | Andreja Strmole  | Tjaša Roš          | 26      | ~~35~~          | 29        |         |             |                    | 90    | 55   |
+| 7         | 12385    | Matjaž Rojc      |                    | 40      | 35          | ~~66~~        |         |             |                    | 141   | 75   |
+| 8         | 14984    | Marko Volk       | Lara Bastar        | 40      | 35          | ~~66 ~~       |         |             |                    | 141   | 75   |
