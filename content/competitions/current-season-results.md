@@ -33,6 +33,15 @@ draft = false
 | 7         | 26       | Marko Jermančič | Mitja Pajek          | ~~DNF~~  | 8 | OCS | 5   | 6   | 4   | 29     |
 | 8         | 14729    | Miro Jakop      | Lovro Jakop          | 6        | ~~7~~ | 7   | 7   | 7   | 6   | 33     |
 
+# Maribor
+
+| Uvrstitev | Št jadra | Krmar           | Flokist              | 1 | 2 | 3 | 4 | 5 | 6 | Skupaj |
+|-----------|----------|-----------------|----------------------|---|---|---|---|---|---|--------|
+| 1         | 14492    | Mitja Nemec     | Jurij Nemec          | ~~2~~ | 1 | 1 | 1 | 2 | 1 | 6      |
+| 2         | 14252    | Andrej Markota  | Luka Markota Jakopin | 1 | ~~2~~ | 2 | 2 | 1 | 2 | 8      |
+| 3         | 14729    | Miro Jakop      | Lovro Jakop          | 3 | ~~4~~ | 4 | 3 | 3 | 3 | 16     |
+| 4         | 14701    | Andreja Strmole | Marko Bračič         | ~~4~~ | 3 | 3 | 4 | 4 | 4 | 18     |
+
 # Murska Sobota
 
 |           |          |                 |               | št plova |   |   |   |   |     |        |
@@ -46,13 +55,13 @@ draft = false
 
 # Skupna razvrstitev
 
-| Uvrstitev | Št jadra | Krmar            | Flokist            | Velenje | Zlato Sidro | Murska Sobota |         |             |                    | Bruto | Neto |
-|-----------|----------|------------------|--------------------|---------|-------------|---------------|---------|-------------|--------------------|-------|------|
-| 1         | 14730    | Miha Kavčič      | Tomo Pečaver       | 8       | 8           | ~~66~~      |         |             |                    | 82    | 16   |
-| 2         | 14733    | Barbara Kraigher | Rok Volk           | 12      | 6           | ~~66~~    |         |             |                    | 84    | 18   |
-| 3         | 14492    | Mitja Nemec      | Jurij Nemec        | 15      | 15          | ~~33~~     |         |             |                    | 63    | 30   |
-| 4         | 14732    | Tomaž Bastar     | Katja Mohar Bastar | 12      | 18          | ~~19~~       |         |             |                    | 49    | 30   |
-| 5         | 14729    | Miro Jakop       | Lovro Jakop        | 22      | 24          | ~~32~~        |         |             |                    | 78    | 46   |
-| 6         | 14701    | Andreja Strmole  | Tjaša Roš          | 26      | ~~35~~          | 29        |         |             |                    | 90    | 55   |
-| 7         | 12385    | Matjaž Rojc      |                    | 40      | 35          | ~~66~~        |         |             |                    | 141   | 75   |
-| 8         | 14984    | Marko Volk       | Lara Bastar        | 40      | 35          | ~~66~~       |         |             |                    | 141   | 75   |
+| Uvrstitev | Št jadra | Krmar            | Flokist            | Velenje | Zlato Sidro | Maribor | Murska Sobota | Portorož Cup | DP | Bruto | Neto |
+|-----------|----------|------------------|--------------------|---------|-------------|---------|---------------|--------------|----|-------|------|
+| 1         | 14730    | Miha Kavčič      | Tomo Pečaver       | 8       | 8           | 25      | ~~66~~            | 11           |    | 118   | 52   |
+| 2         | 14492    | Mitja Nemec      | Jurij Nemec        | 15      | 15          | 5       | ~~33~~            | 18           |    | 86    | 53   |
+| 3         | 14732    | Tomaž Bastar     | Katja Mohar Bastar | 12      | 18          | 25      | 19            | ~~32~~           |    | 106   | 74   |
+| 4         | 14733    | Barbara Kraigher | Rok Volk           | 12      | 6           | 25      | ~~66~~            | 36           |    | 145   | 79   |
+| 5         | 14729    | Miro Jakop       | Lovro Jakop        | 22      | 24          | 11      | 32            | ~~45~~           |    | 134   | 89   |
+| 6         | 14701    | Andreja Strmole  | Tjaša Roš          | 26      | 35          | 13      | 29            | ~~56~~           |    | 159   | 103  |
+| 7         | 14984    | Marko Volk       | Lara Bastar        | 40      | 35          | 25      | ~~66~~            | 22           |    | 188   | 122  |
+| 8         | 12385    | Matjaž Rojc      |                    | 40      | 35          | 25      | ~~66~~            | 56           |    | 222   | 156  |
