@@ -11,7 +11,7 @@ draft = false
 - Naslov: Tavčarjeva 6
 - Kraj: 1000 Ljubljana
 - Država: Slovenija
-- E-pošta: info@fireball-slovenia.com
+- E-pošta: enmiha@gmail.com
 - TR: 020 100 053 798 397
 
 ## Osebe
